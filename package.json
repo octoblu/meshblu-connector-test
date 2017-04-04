@@ -41,7 +41,8 @@
     "fs-cson": "^0.3.2",
     "meshblu-config": "^7.0.0",
     "meshblu-connector-runner": "^10.5.4",
-    "meshblu-connector-schema-generator": "^2.1.0"
+    "meshblu-connector-schema-generator": "^2.1.0",
+    "randomatic": "^1.1.6"
   },
   "meshbluConnector": {
     "githubSlug": "octoblu/meshblu-connector-say-hello",

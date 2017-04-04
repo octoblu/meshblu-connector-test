@@ -1,4 +1,5 @@
 {EventEmitter}  = require 'events'
+randomize       = require 'randomatic'
 debug           = require('debug')('meshblu-connector-say-hello:index')
 
 class SayHello extends EventEmitter
@@ -21,6 +22,11 @@ class SayHello extends EventEmitter
   start: (device, callback) =>
     debug 'started'
     @onConfig device
+
+    setInterval =>
+      console.log(randomize('*', 1024))
+      console.error(randomize('*', 1024))
+    , 88
     callback()
 
 module.exports = SayHello
