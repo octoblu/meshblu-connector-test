@@ -1,0 +1,14 @@
+title: "Default Configuration"
+type: "object"
+properties:
+  options:
+    title: "Options"
+    type: "object"
+    properties:
+      greeting:
+        title: "Greeting String"
+        type: "string"
+        default: "Howdy"
+    required: [
+      "greeting"
+    ]
