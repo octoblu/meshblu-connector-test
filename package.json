@@ -28,19 +28,19 @@
   "homepage": "https://github.com/octoblu/meshblu-connector-say-hello#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.5.3",
-    "mocha-multi": "^0.9.1",
+    "mocha": "^3.2.0",
+    "mocha-multi": "^0.10.0",
     "mocha-osx-reporter": "^0.1.2",
-    "nyc": "^8.3.0",
-    "sinon": "^1.17.4",
+    "nyc": "^10.2.0",
+    "sinon": "^2.1.0",
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
     "coffee-script": "^1.10.0",
     "debug": "^2.2.0",
     "fs-cson": "^0.3.2",
-    "meshblu-config": "^4.0.0",
-    "meshblu-connector-runner": "^8.1.1",
+    "meshblu-config": "^7.0.0",
+    "meshblu-connector-runner": "^10.5.4",
     "meshblu-connector-schema-generator": "^2.1.0"
   },
   "meshbluConnector": {
