@@ -1,0 +1,8 @@
+FROM local/connector-test:base
+
+COPY tests/og/* /usr/src/app/
+
+RUN curl -sSLf \
+  https://github.com/octoblu/go-meshblu-connector-ignition/releases/download/v8.2.3/meshblu-connector-ignition-linux-amd64 \
+  -o /usr/src/app/start \
+  && chmod +x /usr/src/app/start

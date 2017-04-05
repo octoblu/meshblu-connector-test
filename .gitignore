@@ -28,3 +28,4 @@ node_modules
 deploy
 schemas.json
 .nyc_output
+tests/better/start

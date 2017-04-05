@@ -1,0 +1,3 @@
+FROM local/connector-test:base
+
+COPY tests/better/* /usr/src/app/

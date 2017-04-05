@@ -1,0 +1,13 @@
+{
+    "ServiceName": "connector-test-og",
+    "DisplayName": "connector-test-og",
+    "Description": "connector-test-og",
+    "ConnectorName": "meshblu-connector-say-hello",
+    "GithubSlug": "octoblu/meshblu-connector-say-hello",
+    "Tag": "v7.0.4",
+    "BinPath": "/usr/bin/",
+    "Dir": "/usr/src/app/",
+    "LogDir": "/usr/src/app/log/",
+    "Stderr": "/usr/src/app/log/stderr-og.log",
+    "Stdout": "/usr/src/app/log/stdout-og.log"
+}
